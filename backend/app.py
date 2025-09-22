@@ -6,10 +6,11 @@ from sentence_transformers import CrossEncoder
 import openai
 import json
 import os
-
+import logging
 load_dotenv()
 
 app = Flask(__name__)
+app.logger.setLevel(logging.INFO)
 CORS(app, resources={r"/chat": {"origins": "*"}})
 client = openai.OpenAI(api_key=os.getenv("API_KEY"))
 
@@ -21,7 +22,7 @@ with open("data.json", "r") as f:
 MAX_HISTORY_TURNS = 6      
 running_context_items = []  
 
-cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-12-v2")
+cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L4-v2")
 
 # Helper: retrieve top-k relevant items
 def retrieve_context(query, k=6):
@@ -185,4 +186,3 @@ def chat():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-
