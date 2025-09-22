@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+backend/.venv/
+tanmaybot-frontend/node_modules/
+
+# Environment variables
+*.env
+backend/.env
+tanmaybot-frontend/.env
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Python packaging
+*.whl
+*.tar.gz
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Flask instance folder
+instance/
