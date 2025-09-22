@@ -7,6 +7,7 @@ html, body {
 
 .container {
   min-height: 100vh;
+  width: 100%;
   background-color: #111827;
   display: flex;
   flex-direction: column;
@@ -15,17 +16,22 @@ html, body {
 
 .header {
   position: sticky;     
-  top: 0;               
+  top: 0;             
   z-index: 1000;        
   background-color: #1f2937;
   border-bottom: 1px solid #374151;
   padding: 16px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  left: 0; 
+  right: 0; 
 }
 
 
 .headerContent {
   max-width: 1024px;
+  width:100%;
+  gap: 8px;
+  flex-wrap: wrap;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -38,13 +44,6 @@ html, body {
   gap: 12px;
 }
 
-.botIcon {
-  padding: 8px;
-  background-color: #2563eb;
-  border-radius: 8px;
-}
-
-/* Updated with clamp */
 .title {
   font-size: clamp(16px, 1.4vw, 22px);
   font-weight: bold;
@@ -52,7 +51,6 @@ html, body {
   margin: 0 0 0.3% 0;
 }
 
-/* Updated with clamp */
 .subtitle {
   font-size: clamp(12px, 0.9vw, 16px);
   color: #9ca3af;
@@ -205,6 +203,8 @@ html, body {
   background-color: #1f2937;
   border-top: 1px solid #374151;
   padding: 16px;
+  left: 0; 
+  right: 0; 
 }
 
 .inputWrapper {
@@ -229,7 +229,8 @@ html, body {
   resize: none;         
   overflow-y: auto;    
   min-height: 44px;     
-  max-height: 200px;    
+  max-height: 200px;
+  box-sizing: border-box;    
 }
 
 .sendButton {
