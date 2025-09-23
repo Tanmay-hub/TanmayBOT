@@ -22,7 +22,7 @@ with open("data.json", "r") as f:
 MAX_HISTORY_TURNS = 6      
 running_context_items = []  
 
-cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L4-v2")
+cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2")
 
 # Helper: retrieve top-k relevant items
 def retrieve_context(query, k=6):
@@ -109,7 +109,7 @@ def generate_response(query, running_context_items, classification, conversation
     response = client.chat.completions.create(
         model="gpt-5-chat-latest",
         messages=messages,
-        temperature=0.8,
+        temperature=0.75,
         max_tokens=750
     )
     answer = response.choices[0].message.content
@@ -184,5 +184,6 @@ def chat():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug=True)
+    #port = int(os.environ.get("PORT", 5000))
+    #app.run(host="0.0.0.0", port=port)
