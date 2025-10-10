@@ -11,7 +11,7 @@ load_dotenv()
 
 app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
-CORS(app, resources={r"/chat": {"origins": "*"}})
+CORS(app, resources={r"/chat": {"origins": ["https://tanmaybot.vercel.app", "http://localhost:3000"]}})
 client = openai.OpenAI(api_key=os.getenv("API_KEY"))
 
 # Load metadata
