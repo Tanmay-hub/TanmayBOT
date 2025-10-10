@@ -54,7 +54,7 @@ const TanmayBot = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://tanmaybot-production.up.railway.app/chat', {
+      const response = await fetch(process.env.REACT_APP_FLASK_URL + '/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
