@@ -16,6 +16,11 @@
     },
     {
       "category": "Work Experience",
+      "name": "Ongoing Application Development Internship at Closet Loop since November 2025",
+      "details": "I began working in early November 2025 as an Application Developer Intern at Closet Loop (https://myclosetloop.com/), a start-up building a relief system for parents in the form of a children’s clothes circulation app that allows users (parents) to offload clothes that their children have grown out of and receive clothes being offloaded by other users that they now want for their children. As the sole employee at Closet Loop, I am single-handedly building from scratch a Minimum Viable Product (MVP) version of this mobile app using React Native, Flask, PostgreSql/Supabase, and a statistical algorithm for finding the best-matching clothing bundles that a user can receive based on the clothing preferences that they enter. "
+    },
+    {
+      "category": "Work Experience",
       "name": "Working at OpenRisk Technologies from July 2024 to August 2025",
       "details": "This was my most recent work experience. I started working at OpenRisk Technologies, an AI startup that licenses its Intelligent Document Processing (IDP) software to commercial banks, in July 2024 as a full-time software engineer with a focus on backend development of the IDP software using Python, Java, SQL, and SPARQL. I designed, enhanced, and developed many RESTful Spring Boot APIs across a Java-based microservices architecture, including APIs that execute SQL and SPARQL queries to conduct complex Postgres database and RDF graph operations. I developed Python programs to extract interest periods from commercial loan contracts, automate the testing of loan covenant extractions, and enable users to safely cancel and reset the processing of stalled documents on the IDP platform. I also used Python and associated Natural Language Toolkit (NLTK) and Huggingface AI/ML libraries for Named Entity Recognition (NER), tokenization, and Reasoning for Complex Question Answering (RCQA) to debug and resolve issues with the Natural Language Processing (NLP) extractions of financial data from uploaded contracts. I gained some exposure to AWS and Docker while re-engineering model deployment pipelines by incorporating a storage service intermediary between AWS and containerized applications - I replaced direct file transfers from AWS to the containerized applications with programmatic Python downloads from the storage service. I also manually conducted regular and thorough regression and end-to-end testing of the OpenRisk IDP platform and collaborated closely with clients through daily calls, onsite meetings at their headquarters, and 1-1 debugging sessions. I worked with OpenRisk Technologies until August 2025"
     },
@@ -62,7 +67,7 @@
     {
       "category": "Education",
       "name": "Executive Master of Science in Data Science and Analytics at New England College from November 2025 to August 2027",
-      "details": "I will begin pursuing an Executive Master of Science in Data Science and Analytics at New England College on November 10 2025. This hybrid program is designed for working professionals and will allow me to concurrently work full-time anywhere in the United States. I will be eligible for Curricular Practical Training (CPT) with an earliest possible start date of November 10 2025. The program includes courses such as Data Mining and Statistical Modeling, Machine Learning, Text Analytics and Natural Language Processing, and Big Data Tools and Architecture."
+      "details": "I began pursuing an Executive Master of Science in Data Science and Analytics at New England College on November 10 2025. This hybrid program is designed for working professionals and allows me to concurrently work part-time or full-time anywhere in the United States. My current courses are 'Data Science Tools' and 'Introduction to SQL for Data Analytics'. The program includes courses such as Data Mining and Statistical Modeling, Machine Learning, Text Analytics and Natural Language Processing, and Big Data Tools and Architecture."
     },
     {
       "category": "Education",
@@ -77,17 +82,17 @@
     {
       "category": "About Me",
       "name": "Introduction to me",
-      "details": "Here is a brief introduction to me. My name is Tanmay Bothra, and I am a 23-year-old software engineer living in Brooklyn, New York. I was born in Kolkata, India and grew up in Mumbai, India, finished my last 2 years of high school at an international residential school in Hong Kong, and moved to the United States to pursue my Bachelor's Degree at Grinnell College in Grinnell, Iowa. I graduated in May 2024 with a Bachelor of Arts in Computer Science and a Bachelor of Arts in Economics, and worked remotely as a software engineer at an AI start-up called OpenRisk Technologies between July 2024 and August 2025. I am looking for full-time roles or internships in software engineering, data science, or analytics with a start date of November 10. On November 10 2025, I will begin pursuing a hybrid Executive Master of Science in Data Science and Analytics - this program is designed for working professionals and will allow me to concurrently work full-time anywhere in the United States."
+      "details": "Here is a brief introduction to me. My name is Tanmay Bothra, and I am a 23-year-old software engineer living right outside Philadelphia, PA. I was born in Kolkata, India and grew up in Mumbai, India, finished my last 2 years of high school at an international residential school in Hong Kong and moved to the United States to pursue my Bachelor's Degree at Grinnell College in Grinnell, Iowa. I graduated in May 2024 with a Bachelor of Arts in Computer Science and a Bachelor of Arts in Economics, and worked remotely as a software engineer at an AI start-up called OpenRisk Technologies between July 2024 and August 2025. I am looking for full-time roles or internships in software engineering, data science, or analytics with a start date of November 10. On November 10 2025, I will begin pursuing a hybrid Executive Master of Science in Data Science and Analytics - this program is designed for working professionals and will allow me to concurrently work full-time anywhere in the United States."
     },
     {
       "category": "About Me",
       "name": "Interest in outdoor activities",
-      "details": "I enjoy outdoor activities, particularly hiking, camping, and skiing. My most recent hike was Mount Adams and Mount Madison in New Hampshire's White Mountain National Forest at the end of August. The best hike I've done is between the Yosemite Grand Tour Loop in Yosemite National Park and Angel's Landing in Zion National Park. I started skiing last winter and thoroughly enjoyed the experience - I was fortunate to be able to go to Arizona Snowbowl near Flagstaff, AZ and to Brian Head Ski Resort in Utah."
+      "details": "I enjoy outdoor activities, particularly hiking, camping, and skiing. My most recent hike was Texas's Guadalupe Peak in mid-November. The best hike I've done is between the Yosemite Grand Tour Loop in Yosemite National Park and Angel's Landing in Zion National Park. My most recent ski trip was to Okemo Mountain in Vermont in early December."
     },
     {
       "category": "About Me",
       "name": "Interest in traveling and history",
-      "details": "I enjoy walking through and exploring new cities, particularly going to parks, museums, and historic sites. I took a trip to Washington DC during the 4th of July weekend and thoroughly enjoyed exploring the National Museum of American History and International Spy Museum during the National Holiday. I've also loved exploring museums in New York City, where I currently live, and my favorite has been the Ellis Island Immigration Museum. I also enjoy reading and watching documentaries about history and politics."
+      "details": "I enjoy walking through and exploring new cities, particularly going to parks, museums, and historic sites. I have loved exploring the many historic attractions in the Philadelphia area, where I currently live. I also enjoy reading and watching documentaries about history and politics."
     },
     {
       "category": "About Me",
@@ -97,7 +102,7 @@
     {
       "category": "About Me",
       "name": "U.S Work authorization",
-      "details": "Here is information on my authorization to work in the United States. I will begin pursuing an Executive Master of Science in Data Science and Analytics at New England College (NEC) on November 10 2025. This program is designed for working professionals and will allow me to concurrently work full time. As a NEC student, I will be eligible for full-time Curricular Practical Training (CPT) with an earliest possible start date of November 10 2025."
+      "details": "Here is information on my authorization to work in the United States. I began pursuing an Executive Master of Science in Data Science and Analytics at New England College (NEC) on November 10 2025. This program is designed for working professionals and allows me to concurrently work full time. As a NEC student, I am eligible to work on part-time or full-time Curricular Practical Training (CPT) until my program ends in July 2027."
     }
 ]
   
